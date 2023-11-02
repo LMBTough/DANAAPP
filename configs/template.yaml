@@ -1,0 +1,14 @@
+data:
+  num_images: 1000
+  batch_size: 10
+model:
+  name: resnet152
+attack:
+  method: DANAAPP
+  steps: 10
+  eps: 16
+  ieps: 16
+  save_steps:
+  - 9
+path:
+  method: BIGSINIFGSM
